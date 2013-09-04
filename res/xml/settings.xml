@@ -1,0 +1,84 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="rajawalisharedprefs"
+    android:title="@string/settings_title" >
+
+	<MultiSelectListPreference
+        android:key="meoprefPatterns"
+        android:dialogTitle="@string/meo_patterns_title"
+        android:summary="@string/meo_patterns_summary"        
+        android:title="@string/meo_patterns_title"
+        android:entries="@array/pattern_entries"
+        android:entryValues="@array/pattern_values"
+        android:defaultValue="@array/pattern_default" />
+	<EditTextPreference
+		android:title="@string/meo_displaytime_title"
+		android:summary="@string/meo_displaytime_summary"
+		android:inputType="number"
+ 		android:defaultValue="1900" 
+		android:key="meoprefDisplaytime"/>        
+	<MultiSelectListPreference
+        android:key="meoprefCrossfades"
+        android:dialogTitle="@string/meo_crossfades_title"
+        android:summary="@string/meo_crossfades_summary"        
+        android:title="@string/meo_crossfades_title"
+        android:entries="@array/crossfade_entries"
+        android:entryValues="@array/crossfade_values"
+        android:defaultValue="@array/crossfade_default" />        
+	<EditTextPreference
+		android:title="@string/meo_fadetime_title"
+		android:summary="@string/meo_fadetime_summary"
+		android:inputType="number"
+		android:defaultValue="130"
+		android:key="meoprefFadetime"/>
+	<MultiSelectListPreference
+		android:key="meoprefPixelLayout"
+		android:dialogTitle="@string/meo_pixel_layout_title"
+		android:title="@string/meo_pixel_layout_title"
+		android:summary="@string/meo_pixel_layout_summary"
+		android:entries="@array/pixel_layout_names"
+		android:entryValues="@array/pixel_layout_values"/>
+		android:defaultValue="@array/pixel_layout_default" />
+	<EditTextPreference
+		android:title="@string/meo_layouttime_title"
+		android:summary="@string/meo_layouttime_summary"
+		android:inputType="number"
+		android:defaultValue="170"
+		android:key="meoprefLayouttime"/>		
+	<ListPreference
+		android:key="meoprefSize"
+		android:title="@string/meo_bulbsize_title"
+		android:summary="@string/meo_bulbsize_summary"
+		android:defaultValue="40"
+		android:entries="@array/bulbsize_names"
+		android:entryValues="@array/bulbsize_values"/>		
+	<ListPreference
+		android:key="meoprefStarburst"
+		android:title="@string/meo_starburst_title"
+		android:summary="@string/meo_starburst_summary"
+		android:defaultValue="0"
+		android:entries="@array/starburst_names"
+		android:entryValues="@array/starburst_values"/>
+	<CheckBoxPreference android:key="meoprefRotate"
+		android:summary="@string/meo_rotate_summary"
+		android:title="@string/meo_rotate_title"
+		android:summaryOn="Display rotates"
+		android:summaryOff="Display is still"/>			
+	<ListPreference
+		android:key="meoprefMode"
+		android:title="@string/meo_mode_title"
+		android:summary="@string/meo_mode_summary"
+		android:defaultValue="Pattern Change Mode"
+		android:entries="@array/mode_names"
+		android:entryValues="@array/mode_values"/>		
+	<CheckBoxPreference android:key="meoprefDev"
+		android:summary="@string/meo_dev_summary"
+		android:title="@string/meo_dev_title"
+		android:summaryOn="Test mode is on"
+		android:summaryOff="Test mode is off"/>		
+	<Preference
+		android:title="About Xmas Lights"
+		android:summary="Opens the About webpage">
+		<intent
+			android:action="android.intent.action.VIEW"
+			android:data="http://www.kicktechnic.co.uk/XmasLights.html" /> </Preference>        
+</PreferenceScreen>

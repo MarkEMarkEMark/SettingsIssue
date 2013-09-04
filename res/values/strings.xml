@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">MEO Christmas Lights</string>
+    
+    <!-- About Name -->
+    <string name="abt_name">About Box</string>
+
+    <!-- Name in Live Wallpaper Picker list -->
+    <string name="lwp_name">MEO Christmas Lights</string>
+
+    <!-- Description in Live Wallpaper Picker list -->
+    <string name="lwp_desc">Highly customisable Christmas light decorations for Android</string>
+
+    <!-- Author -->
+    <string name="lwp_author">Mark E. Ortiz</string>
+
+    <!-- Quick little message displayed when the Live Wallpaper Picker is opened -->
+    <!-- The message text is the prefix, lwp_name, and suffix concatenated -->
+    <string name="picker_toast_prefix">Choose \"</string>
+    <string name="picker_toast_suffix">\" from the list of live wallpapers</string>
+
+    <!-- Settings -->
+    <string name="settings_title">MEO Christmas Lights</string>
+
+    <string name="livewallpaper_settings">Settings</string>
+    <string name="meo_mode_title">Pattern Changing Mode</string>
+	<string name="meo_mode_summary">Choose how to change patterns</string>
+	<string name="meo_pixel_layout_title">Light Layout</string>
+	<string name="meo_pixel_layout_summary">Choose a layout for the lights</string>
+    <string name="meo_bulbsize_title">Bulb Size</string>
+	<string name="meo_bulbsize_summary">Choose the size of the lights</string>	
+    <string name="meo_starburst_title">Bulb Starfractor Filter</string>
+	<string name="meo_starburst_summary">Choose the starburst type</string>
+	<string name="meo_patterns_title">Light Patterns</string>
+	<string name="meo_patterns_summary">Choose which patterns to display</string>
+	<string name="meo_crossfades_title">Crossfades</string>
+	<string name="meo_crossfades_summary">Choose how patterns change to each other</string>
+	<string name="meo_dev_title">Developer Mode</string>
+	<string name="meo_dev_summary">Display lights as simple squares</string>
+	<string name="meo_rotate_title">Rotate Display</string>
+	<string name="meo_rotate_summary">Rotate the lights or keep them still</string>	
+	<string name="meo_fadetime_title">Crossfade Time</string>
+	<string name="meo_fadetime_summary">Time taken to fade between patterns</string>
+	<string name="meo_displaytime_title">Display Time</string>
+	<string name="meo_displaytime_summary">Time each pattern is displayed for</string>
+	<string name="meo_layouttime_title">Layout Time</string>
+	<string name="meo_layouttime_summary">Time each light layout is displayed for</string>	
+	<string name="meo_about_title">About Wallpaper</string>
+	<string name="meo_about_summary">Credits etc.</string>
+	
+	
+	<!-- New Fragment Version -->
+	<string name="inline_preferences">Inline Preferences</string>
+	<string name="title_checkbox_preference">Inline Preferences</string>
+	<string name="summary_checkbox_preference">Inline Preferences</string>
+	<string name="dialog_based_preferences">Inline Preferences</string>
+	<string name="title_edittext_preference">Inline Preferences</string>
+	<string name="summary_edittext_preference">Inline Preferences</string>
+	<string name="dialog_title_edittext_preference">Inline Preferences</string>
+	<string name="title_list_preference">Inline Preferences</string>
+	<string name="summary_list_preference">Inline Preferences</string>
+	<string name="dialog_title_list_preference">Inline Preferences</string>
+	<string name="launch_preferences">Inline Preferences</string>
+	<string name="title_screen_preference">Inline Preferences</string>
+	<string name="summary_screen_preference">Inline Preferences</string>
+	<string name="title_next_screen_toggle_preference">Inline Preferences</string>
+	<string name="summary_next_screen_toggle_preference">Inline Preferences</string>
+	<string name="title_intent_preference">Inline Preferences</string>
+	<string name="summary_intent_preference">Inline Preferences</string>
+	<string name="preference_attributes">Inline Preferences</string>
+	<string name="title_parent_preference">Inline Preferences</string>
+	<string name="summary_parent_preference">Inline Preferences</string>
+	<string name="title_child_preference">Inline Preferences</string>
+	<string name="summary_child_preference">Inline Preferences</string>
+	
+</resources>

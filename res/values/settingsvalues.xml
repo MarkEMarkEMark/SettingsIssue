@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="mode_names">
+		<item>"Automatic"</item>
+		<item>"Touch screen"</item>
+		<item>"Static"</item>
+	</string-array>
+
+	<string-array name="mode_values">
+		<item>"Automatic"</item>
+		<item>"Touch screen"</item>
+		<item>"Static"</item>
+	</string-array>
+	
+	<string-array name="starburst_names">
+		<item>"None"</item>
+		<item>"One"</item>
+		<item>"Two"</item>
+		<item>"Three"</item>
+		<item>"Four"</item>
+		<item>"Five"</item>
+	</string-array>
+
+	<string-array name="starburst_values">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+	</string-array>
+	
+	<string-array name="bulbsize_names">
+		<item>"One"</item>
+		<item>"Two"</item>
+		<item>"Three"</item>
+		<item>"Four"</item>
+		<item>"Five"</item>
+		<item>"Six"</item>		
+	</string-array>
+
+	<string-array name="bulbsize_values">
+		<item>"5"</item>
+		<item>"10"</item>
+		<item>"20"</item>
+		<item>"40"</item>
+		<item>"80"</item>
+		<item>"160"</item>
+	</string-array>
+	
+	<string-array name="pattern_entries">
+		<item>"Solid Color"</item>
+		<item>"Simplex Noise"</item>
+		<item>"Line Fade"</item>
+		<item>"Chaser"</item>
+		<item>"Rainbow"</item>
+		<item>"Wave"</item>
+		<item>"Wave Phasing"</item>
+		<item>"Plasma"</item>	
+		<item>"Strobe Fade"</item>
+		<item>"Splash Fade"</item>
+		<item>"Slow Fill"</item>
+		<item>"Larson Scanners"</item>
+		<item>"Solid Color Pulse"</item>
+		<item>"Random Strobe"</item>
+		<item>"Larson Heartbeat"</item>	
+		<item>"Flames"</item>
+		<item>"Wavy Flag"</item>
+		<item>"Complimentary Fade"</item>
+		<item>"Random Levels"</item>		
+		<item>"Gentle Random Fade"</item>
+	</string-array>
+	
+	<string-array name="pattern_values">
+		<item>"Solid Color"</item>
+		<item>"Simplex Noise"</item>
+		<item>"Line Fade"</item>
+		<item>"Chaser"</item>
+		<item>"Rainbow"</item>
+		<item>"Wave"</item>
+		<item>"Wave Phasing"</item>
+		<item>"Plasma"</item>	
+		<item>"Strobe Fade"</item>
+		<item>"Splash Fade"</item>
+		<item>"Slow Fill"</item>
+		<item>"Larson Scanners"</item>
+		<item>"Solid Color Pulse"</item>
+		<item>"Random Strobe"</item>
+		<item>"Larson Heartbeat"</item>	
+		<item>"Flames"</item>
+		<item>"Wavy Flag"</item>
+		<item>"Complimentary Fade"</item>
+		<item>"Random Levels"</item>		
+		<item>"Gentle Random Fade"</item>		
+	</string-array>
+	
+	<string-array name="pattern_default">
+		<item>"Simplex Noise"</item>
+		<item>"Wave Phasing"</item>
+		<item>"Plasma"</item>	
+		<item>"Strobe Fade"</item>
+		<item>"Complimentary Fade"</item>			
+	</string-array>
+	
+	<string-array name="crossfade_entries">
+		<item>"Simple Fade"</item>
+		<item>"Side to Side Wipe"</item>
+		<item>"Shutters Wipe"</item>
+		<item>"Random Fade"</item>
+		<item>"Interlaced Wipe"</item>
+		<item>"Double Wipe"</item>
+		<item>"Centre Wipe"</item>
+		<item>"Dithered Fade"</item>	
+	</string-array>
+	
+	<string-array name="crossfade_values">
+		<item>"Simple Fade"</item>
+		<item>"Side to Side Wipe"</item>
+		<item>"Shutters Wipe"</item>
+		<item>"Random Fade"</item>
+		<item>"Interlaced Wipe"</item>
+		<item>"Double Wipe"</item>
+		<item>"Centre Wipe"</item>
+		<item>"Dithered Fade"</item>		
+	</string-array>
+	
+	<string-array name="crossfade_default">
+		<item>"Simple Fade"</item>	
+	</string-array>
+	
+		<string-array name="pixel_layout_names">
+		<item>"Tree Twisted Strands"</item>
+		<item>"Tree Single Strand"</item>
+		<item>"Tree Straight Lines"</item>
+		<item>"Tree Randomised"</item>
+		<item>"Randomised Field"</item>
+		<item>"Simple Grid"</item>
+	</string-array>
+
+	<string-array name="pixel_layout_values">
+		<item>"Tree Twisted Strands"</item>
+		<item>"Tree Single Strand"</item>
+		<item>"Tree Straight Lines"</item>
+		<item>"Tree Randomised"</item>
+		<item>"Randomised Field"</item>
+		<item>"Simple Grid"</item>
+	</string-array>
+	
+	<string-array name="pixel_layout_default">
+		<item>"Tree Twisted Strands"</item>
+		<item>"Tree Straight Lines"</item>
+	</string-array>
+</resources>
